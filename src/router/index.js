@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Bookmark from '../views/Bookmark.vue'
+import Download from '../views/Download.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/bookmark',
     name: 'Bookmark',
     component: Bookmark,
+  },
+  {
+    path: '/download',
+    name: 'Download',
+    component: Download,
   },
   {
     path: '/about',
