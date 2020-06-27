@@ -1,18 +1,19 @@
 <template>
-  <main class="flex flex-col flex-grow p-2">
-    <h1 class="text-lg text-gray-800 font-semibold tracking-wide mb-5">
-      Popular SVG Icons Pack We Love Right Now
-    </h1>
-    <div class="flex flex-wrap justify-around overflow-y-scroll">
-      <Pack v-for="n in 15" :key="n" />
+  <main class="flex flex-grow h-screen">
+    <Listing />
+    <div class="overflow-y-scroll p-2">
+      <div class="flex flex-wrap justify-between">
+        <Pack v-for="n in 15" :key="n" />
+      </div>
     </div>
   </main>
 </template>
 
 <script>
 import Pack from '@/components/Pack'
+import Listing from '@/components/Listing'
 export default {
-  name: 'Home',
-  components: { Pack },
+  name: 'Download',
+  components: { Pack, Listing },
 }
 </script>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Bookmark from '../views/Bookmark.vue'
 import Download from '../views/Download.vue'
+import Settings from '../views/Settings.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/download',
     name: 'Download',
     component: Download,
+  },
+  {
+    path: '/settings',
+    name: 'Settings',
+    component: Settings,
   },
   {
     path: '/about',

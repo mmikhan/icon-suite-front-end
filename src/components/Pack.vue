@@ -18,7 +18,7 @@
           >Heroicons</a
         >
         <a
-          class="text-xs text-white tracking-wider rounded px-2 bg-blue-700 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          class="text-xs text-green-900 font-semibold tracking-wider rounded-lg px-2 bg-green-200 hover:bg-green-300 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
           href="https://github.com/refactoringui/heroicons/blob/master/LICENSE"
           >MIT</a
         >
