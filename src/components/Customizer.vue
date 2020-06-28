@@ -1,9 +1,9 @@
 <template>
   <section
-    class="flex flex-col flex-shrink-0 overflow-y-hidden bg-gray-100 border-l border-gray-300 w-56 p-2"
+    class="flex flex-col flex-shrink-0 overflow-y-hidden bg-gray-100 dark:bg-gray-800 border-l border-gray-300 dark:border-gray-700 w-56 p-2"
   >
     <div class="flex justify-center items-center h-screen" v-if="isSelected">
-      <p class="text-xs text-gray-800">No selection</p>
+      <p class="text-xs text-gray-800 dark:text-gray-500">No selection</p>
     </div>
     <div v-else class="flex flex-col overflow-y-hidden flex-grow">
       <Preview />
@@ -76,9 +76,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .prism-editor-wrapper {
-  @apply h-auto;
+  @apply h-auto !important;
   @apply text-xs;
+  @apply rounded;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prism-editor__line-numbers,
+  .prism-editor-wrapper .language-markup {
+    @apply bg-gray-900 !important;
+  }
 }
 </style>

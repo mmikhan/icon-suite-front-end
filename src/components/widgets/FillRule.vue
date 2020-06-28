@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-2">
     <label
-      class="flex items-center text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="fill-rule"
     >
       <input
@@ -13,7 +13,7 @@
     </label>
 
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="nonzero"
     >
       <input
@@ -26,7 +26,7 @@
       <p class="text-xs pl-1">Non Zero</p>
     </label>
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="evenodd"
     >
       <input

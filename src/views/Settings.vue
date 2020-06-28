@@ -3,7 +3,7 @@
     <Panel />
     <div class="flex flex-col flex-grow overflow-y-scroll space-y-5 p-2">
       <General />
-      <hr />
+      <hr class="dark:border-gray-700" />
       <Optimization />
     </div>
   </main>

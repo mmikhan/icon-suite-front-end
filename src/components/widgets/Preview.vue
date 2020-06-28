@@ -1,7 +1,7 @@
 <template>
   <div
     id="preview"
-    class="flex justify-center items-center text-gray-800 rounded h-24 mb-5 hover:shadow-outline transition duration-150 ease-in-out"
+    class="flex justify-center items-center text-gray-800 dark:text-gray-500 rounded h-24 mb-5 hover:shadow-outline transition duration-150 ease-in-out"
   >
     <span>
       <svg

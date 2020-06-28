@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-2">
     <label
-      class="flex items-center text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="stroke-linejoin"
     >
       <input
@@ -13,7 +13,7 @@
     </label>
 
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="miter"
     >
       <input
@@ -26,7 +26,7 @@
       <p class="text-xs pl-1">Miter</p>
     </label>
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="round"
     >
       <input
@@ -39,7 +39,7 @@
       <p class="text-xs pl-1">Round</p>
     </label>
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="bevel"
     >
       <input
@@ -52,7 +52,7 @@
       <p class="text-xs pl-1">Bevel</p>
     </label>
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="miter-clip"
     >
       <input
@@ -65,7 +65,7 @@
       <p class="text-xs pl-1">Miter Clip</p>
     </label>
     <label
-      class="flex items-center ml-4 text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center ml-4 text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="arcs"
     >
       <input

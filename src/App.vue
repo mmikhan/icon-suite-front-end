@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="antialiased flex h-screen">
+  <div id="app" class="antialiased flex h-screen dark:bg-gray-900">
     <Navigation />
     <router-view />
   </div>

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex items-center w-full max-w-sm bg-gray-100 rounded p-2 mb-5 shadow"
+    class="flex items-center w-full max-w-sm bg-gray-100 dark:bg-gray-800 rounded p-2 mb-5 shadow"
   >
     <div class=" w-1/6">
       <div
-        class="w-10 h-10 bg-gray-600 rounded-full text-center text-white font-semibold text-2xl hover:shadow-outline transition duration-150 ease-in-out"
+        class="w-10 h-10 bg-gray-600 dark:bg-gray-900 rounded-full text-center text-white dark:text-gray-500 font-semibold text-2xl hover:shadow-outline transition duration-150 ease-in-out"
       >
         R
       </div>
@@ -12,7 +12,7 @@
     <div class="w-3/6">
       <div class="space-x-2">
         <a
-          class="text-sm text-gray-800 tracking-wide font-semibold hover:text-indigo-600 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          class="text-sm text-gray-800 dark:text-gray-500 tracking-wide font-semibold hover:text-indigo-600 dark:hover:text-indigo-500 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
           href="https://github.com/refactoringui/heroicons"
           target="_blank"
           >Heroicons</a
@@ -23,7 +23,7 @@
           >MIT</a
         >
       </div>
-      <p class="text-xs text-gray-700">
+      <p class="text-xs text-gray-700 dark:text-gray-600">
         A set of free high-quality SVG icons for UI development.
       </p>
     </div>

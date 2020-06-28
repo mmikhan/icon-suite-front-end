@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col flex-shrink-0 bg-gray-100 border-r border-gray-300 p-2"
+    class="flex flex-col flex-shrink-0 bg-gray-100 dark:bg-gray-800 border-r border-gray-300 dark:border-gray-700 p-2"
   >
     <div class="overflow-y-scroll">
       <h2 class="text-xs text-gray-600 font-semibold tracking-wide">
@@ -8,7 +8,7 @@
       </h2>
       <ul class="space-y-2 p-2">
         <li
-          class="text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+          class="text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
         >
           <router-link class="flex items-center" to="/settings/general">
             <svg
@@ -29,7 +29,7 @@
           </router-link>
         </li>
         <li
-          class="text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+          class="text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
         >
           <router-link class="flex items-center" to="/settings/optimization">
             <svg

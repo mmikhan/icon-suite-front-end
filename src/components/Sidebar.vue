@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col flex-shrink-0 overflow-y-hidden bg-gray-100 border-r border-gray-300 p-2"
+    class="flex flex-col flex-shrink-0 overflow-y-hidden bg-gray-100 dark:bg-gray-800 border-r border-gray-300 dark:border-gray-700 p-2"
   >
     <Search />
     <Library />

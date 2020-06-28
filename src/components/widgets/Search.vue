@@ -18,7 +18,7 @@
     </span>
 
     <input
-      class="w-full bg-white text-sm text-gray-900 border border-gray-300 rounded appearance-none leading-normal placeholder-gray-700 focus:outline-none focus:shadow-outline pl-6"
+      class="w-full bg-white dark:bg-gray-900 text-sm text-gray-900 dark:text-gray-500 border border-gray-300 dark:border-gray-700 rounded appearance-none leading-normal placeholder-gray-700 focus:outline-none focus:shadow-outline pl-6"
       type="text"
       name="search"
       id="search"

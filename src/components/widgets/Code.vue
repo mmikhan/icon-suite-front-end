@@ -4,7 +4,7 @@
       Preview
     </h2>
     <button
-      class="rounded text-gray-800 hover:text-indigo-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+      class="rounded text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
     >
       <svg
         class="w-4 h-4 stroke-current stroke-2"

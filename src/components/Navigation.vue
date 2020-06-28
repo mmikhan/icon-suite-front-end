@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col justify-between items-center bg-blue-900 border-r border-blue-300 text-blue-300 p-2"
+    class="flex flex-col justify-between items-center bg-blue-900 border-r border-blue-300 text-blue-300 p-2 dark:bg-gray-900 dark:border-gray-700"
   >
     <ul class="flex flex-col items-center space-y-6">
       <li class="text-blue-100 bg-blue-800 rounded-lg p-2 mb-4">

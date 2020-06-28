@@ -1,7 +1,7 @@
 <template>
   <div>
     <label
-      class="flex items-center justify-between text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center justify-between text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="stroke-width"
     >
       <div class="flex items-center">

@@ -1,5 +1,7 @@
 <template>
-  <span class="absolute inset-y-0 right-0 -m-1 text-indigo-700">
+  <span
+    class="absolute inset-y-0 right-0 -m-1 text-indigo-700 dark:text-indigo-500"
+  >
     <svg
       class="w-3 h-3 stroke-current stroke-2"
       viewBox="0 0 24 24"

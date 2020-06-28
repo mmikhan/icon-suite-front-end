@@ -25,7 +25,7 @@
         </router-link>
       </li>
       <li
-        class="text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+        class="text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       >
         <router-link class="flex items-center" to="/font-awesome">
           <svg
@@ -60,5 +60,11 @@ export default {
 .router-link-active {
   @apply text-indigo-700;
   @apply font-semibold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .router-link-active {
+    @apply text-indigo-500;
+  }
 }
 </style>

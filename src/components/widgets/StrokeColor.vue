@@ -1,7 +1,7 @@
 <template>
   <div>
     <label
-      class="flex items-center justify-between text-gray-800 hover:text-indigo-600 transition duration-150 ease-in-out"
+      class="flex items-center justify-between text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 transition duration-150 ease-in-out"
       for="stroke-color"
     >
       <div class="flex items-center">
@@ -15,7 +15,7 @@
       <code class="text-xs">#f3f4f5</code>
     </label>
     <input
-      class="w-full rounded focus:outline-none focus:shadow-outline"
+      class="w-full rounded focus:outline-none focus:shadow-outline dark:bg-gray-800"
       type="color"
       name="stroke-color"
     />

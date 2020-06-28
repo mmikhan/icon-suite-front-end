@@ -1,28 +1,34 @@
 <template>
   <div class="flex w-full">
     <div class="w-1/3">
-      <h2 class="text-xs text-gray-800 font-semibold tracking-wide">
+      <h2
+        class="text-xs text-gray-800 dark:text-gray-600 font-semibold tracking-wide"
+      >
         Optimization
       </h2>
-      <h3 class="text-xs text-gray-600">
+      <h3 class="text-xs text-gray-600 dark:text-gray-500">
         Changes will be applicable directly into the SVG icon source code
         itself.
       </h3>
     </div>
     <div class="w-2/3">
       <h3
-        class="text-xs text-gray-800 hover:text-indigo-600 font-semibold transition duration-150 ease-in-out"
+        class="text-xs text-gray-800 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-500 font-semibold transition duration-150 ease-in-out"
       >
         Icon optimization
       </h3>
       <div class="flex flex-col space-y-1">
         <label>
           <input type="checkbox" name="startup" value="cleanupAttrs" checked />
-          <span class="text-xs text-gray-800 ml-2">Cleanup attributes</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Cleanup attributes</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeDoctype" checked />
-          <span class="text-xs text-gray-800 ml-2">Remove doctype</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove doctype</span
+          >
         </label>
         <label>
           <input
@@ -31,7 +37,7 @@
             value="removeXMLProcInst"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove XML processing instruction</span
           >
         </label>
@@ -42,7 +48,9 @@
             value="removeComments"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove comments</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove comments</span
+          >
         </label>
         <label>
           <input
@@ -51,15 +59,21 @@
             value="removeMetadata"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove metadata</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove metadata</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeTitle" checked />
-          <span class="text-xs text-gray-800 ml-2">Remove title</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove title</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeDesc" checked />
-          <span class="text-xs text-gray-800 ml-2">Remove description</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove description</span
+          >
         </label>
         <label>
           <input
@@ -68,7 +82,9 @@
             value="removeUselessDefs"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove useless defs</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove useless defs</span
+          >
         </label>
         <label>
           <input
@@ -77,7 +93,9 @@
             value="removeEditorsNSData"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove editor NS data</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove editor NS data</span
+          >
         </label>
         <label>
           <input
@@ -86,7 +104,7 @@
             value="removeEmptyAttrs"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove empty attributes</span
           >
         </label>
@@ -97,7 +115,9 @@
             value="removeHiddenElems"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove hidden elements</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove hidden elements</span
+          >
         </label>
         <label>
           <input
@@ -106,7 +126,9 @@
             value="removeEmptyText"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove empty text</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove empty text</span
+          >
         </label>
         <label>
           <input
@@ -115,13 +137,15 @@
             value="removeEmptyContainers"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove empty containers</span
           >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeViewBox" />
-          <span class="text-xs text-gray-800 ml-2">Remove viewBox</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove viewBox</span
+          >
         </label>
         <label>
           <input
@@ -130,7 +154,7 @@
             value="cleanupEnableBackground"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove/tidy enable-background</span
           >
         </label>
@@ -141,13 +165,15 @@
             value="convertStyleToAttrs"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Convert style to attributes</span
           >
         </label>
         <label>
           <input type="checkbox" name="startup" value="convertColors" checked />
-          <span class="text-xs text-gray-800 ml-2">Convert colors</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Convert colors</span
+          >
         </label>
         <label>
           <input
@@ -156,7 +182,9 @@
             value="convertPathData"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Convert path data</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Convert path data</span
+          >
         </label>
         <label>
           <input
@@ -165,7 +193,9 @@
             value="convertTransform"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Convert transform</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Convert transform</span
+          >
         </label>
         <label>
           <input
@@ -174,7 +204,7 @@
             value="removeUnknownsAndDefaults"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove unknowns and defaults</span
           >
         </label>
@@ -185,7 +215,7 @@
             value="removeNonInheritableGroupAttrs"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove non-inheritable group attributes</span
           >
         </label>
@@ -196,7 +226,7 @@
             value="removeUselessStrokeAndFill"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Remove useless stroke and fill</span
           >
         </label>
@@ -207,11 +237,15 @@
             value="removeUnusedNS"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove unused NS</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove unused NS</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="cleanupIDs" checked />
-          <span class="text-xs text-gray-800 ml-2">Cleanup ID's</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Cleanup ID's</span
+          >
         </label>
         <label>
           <input
@@ -220,7 +254,9 @@
             value="cleanupNumericValues"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Cleanup numeric values</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Cleanup numeric values</span
+          >
         </label>
         <label>
           <input
@@ -229,7 +265,7 @@
             value="moveElemsAttrsToGroup"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Move element attributes to group</span
           >
         </label>
@@ -240,7 +276,7 @@
             value="moveGroupAttrsToElems"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2"
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
             >Move group attributes to elements</span
           >
         </label>
@@ -251,15 +287,21 @@
             value="collapseGroups"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Collapse groups</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Collapse groups</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeRasterImages" />
-          <span class="text-xs text-gray-800 ml-2">Remove raster images</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove raster images</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="mergePaths" checked />
-          <span class="text-xs text-gray-800 ml-2">Merge paths</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Merge paths</span
+          >
         </label>
         <label>
           <input
@@ -268,11 +310,15 @@
             value="convertShapeToPath"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Convert shape to path</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Convert shape to path</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="sortAttrs" checked />
-          <span class="text-xs text-gray-800 ml-2">Sort attributes</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Sort attributes</span
+          >
         </label>
         <label>
           <input
@@ -281,13 +327,17 @@
             value="removeDimensions"
             checked
           />
-          <span class="text-xs text-gray-800 ml-2">Remove dimensions</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 ml-2"
+            >Remove dimensions</span
+          >
         </label>
         <label>
           <input type="checkbox" name="startup" value="removeAttrs" checked />
-          <span class="text-xs text-gray-800 mx-2">Remove attributes</span>
+          <span class="text-xs text-gray-800 dark:text-gray-500 mx-2"
+            >Remove attributes</span
+          >
           <input
-            class="bg-white text-xs text-gray-900 border border-gray-400 rounded appearance-none leading-normal placeholder-gray-700 focus:outline-none focus:shadow-outline pl-2"
+            class="bg-white dark:bg-gray-800 text-xs text-gray-900 dark:text-white border border-gray-400 dark:border-gray-700 rounded appearance-none leading-normal placeholder-gray-700 focus:outline-none focus:shadow-outline pl-2"
             type="text"
             value="stroke|fill"
           />
@@ -295,7 +345,7 @@
       </div>
       <div class="flex justify-end space-x-5 mb-5">
         <button
-          class="flex items-center text-xs bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          class="flex items-center text-xs bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-800 dark:text-gray-500 font-semibold py-1 px-2 border border-gray-400 dark:border-gray-700 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
         >
           <svg
             class="w-4 h-4 mr-1 stroke-current stroke-2"

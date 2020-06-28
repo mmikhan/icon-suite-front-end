@@ -3,7 +3,7 @@
     <h2 class="text-gray-600 font-semibold tracking-wide">
       Information
     </h2>
-    <div class="flex text-gray-800 p-2">
+    <div class="flex text-gray-800 dark:text-gray-500 p-2">
       <ul class="pr-2 space-y-1">
         <li>Name</li>
         <li>File Size</li>

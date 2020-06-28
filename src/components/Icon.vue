@@ -1,6 +1,6 @@
 <template>
   <button
-    class="relative flex flex-col items-center w-20 h-20 m-2 p-2 bg-gray-100 hover:bg-white hover:shadow-outline text-gray-700 rounded focus:bg-white focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+    class="relative flex flex-col items-center w-20 h-20 m-2 p-2 bg-gray-100 hover:bg-white hover:shadow-outline dark:bg-gray-800 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-500 rounded focus:bg-white focus:outline-none focus:shadow-outline dark:focus:bg-gray-900 transition duration-150 ease-in-out"
   >
     <Star />
     <svg
