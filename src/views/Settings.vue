@@ -1,6 +1,8 @@
 <template>
   <main class="flex h-screen flex-grow">
-    <Panel />
+    <Sidebar>
+      <AppSettings />
+    </Sidebar>
     <div class="flex flex-col flex-grow overflow-y-scroll space-y-5 p-2">
       <General />
       <hr class="dark:border-gray-700" />
@@ -10,12 +12,13 @@
 </template>
 
 <script>
-import Panel from '@/components/Panel'
+import Sidebar from '@/components/Sidebar'
 import General from '@/components/General'
 import Optimization from '@/components/Optimization'
+import AppSettings from '@/components/widgets/AppSettings'
 
 export default {
   name: 'Settings',
-  components: { Panel, General, Optimization },
+  components: { Sidebar, General, Optimization, AppSettings },
 }
 </script>
